@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 99.9vh;
+    background: linear-gradient(to bottom right, hsl(120, 80%, 85%), hsl(180, 80%, 80%), hsl(240, 80%, 75%));
+}
+
+header {
+    border: 1px solid black;
+    min-height: 15vh;
+    width: 100%;
+}
+
+main {
+    border: 1px dashed darkred;
+    min-height: 85vh;
+    width: 100%;
+}
